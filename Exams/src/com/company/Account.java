@@ -8,7 +8,7 @@ public abstract class Account
     public Account(int acctNum)
     {
         accountNumber = acctNum;
-        setBalance(0.0);
+        setBalance(100000);
     }
 
     public void setBalance(double b)
